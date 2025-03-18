@@ -1,0 +1,32 @@
+header{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+footer{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+.banner{
+    height: 500px;
+    background-color: wheat;
+}
+.parentbox{
+    height: 500px;
+    background-color: aliceblue;
+    display: flex;
+}
+.lower{
+    height: 300px;
+    background-color: aqua;
+}
+.parentbox>.img{
+    flex: 1;
+    border: 1px solid red;
+    font-size: 20px;
+    padding: 20px;
+}
+
