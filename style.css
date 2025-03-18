@@ -1,0 +1,8 @@
+.parentbox{
+    display: flex;
+    border: 1px solid red;
+}
+.parentbox>.items{
+    width: 200px;
+    background-color: red;
+}
