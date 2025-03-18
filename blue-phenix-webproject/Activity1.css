@@ -2,21 +2,24 @@ body{
         margin: 0px;
 }
 header{
-    height: 100px;
-    background-color: black;
+    height: 130px;
+    background-color: #0b0b0b;
     display: flex;
-    justify-content: space-between;
-    
+    order: 2;
+    position: fixed;
+    width: 100%;
+    opacity: 0.85;
+    z-index: 100;
 }
 footer{
     height: 100px;
-    background-color: black;
+    background-color: grey;
     display: flex;
     
 }
 .background{
-    background-color: gray;
-    height: 550px;
+    background-color: black;
+    height: 700px;
     display: flex;
     margin: 0px;
     align-items: center;
@@ -34,22 +37,24 @@ h1{
     color: black;
 }
 #lorem{
-    font-size: 20px;
+    font-size: 30px;
     color: aqua;
 }
-#whitespace{
-    height: 50px;
-    width: 150px;
+.whitespace{
+    height: 70px;
+    width: 200px;
     background-color: green;
+    color: white;
+    font-size: 20px;
 }
 .background2>.content2{
-    height: 300px;
+    height: 500px;
     flex: 1;
     padding: 20px;
     margin: 200px;
 }
 .background2{
-    background-color: skyblue;
+    background-color: wheat;
     height: 500px;
     display: flex;
     padding: 100px;
@@ -62,13 +67,14 @@ h1{
 }
 #lorem2{
     color: black;
-    font-size: 20px;
+    font-size: 30px;
 }
 #projectbotton{
-    height: 50px;
-    width: 100px;
+    height: 70px;
+    width: 200px;
     background-color: black;
     color: white;
+    font-size: 20px;
 }
 .background3>.content3{
     height: 300px;
@@ -77,21 +83,21 @@ h1{
     margin: 200px;
 }
 .background3{
-    background-color: skyblue;
-    height: 500px;
+    background-color: black;
+    height: 700px;
     display: flex;
     padding: 100px;
     margin: 0px;
     align-items: center;
 } 
 .background4>.content4{
-    height: 300px;
+    height: 500px;
     flex: 1;
     padding: 20px;
     margin: 200px;
 }
 .background4{
-    background-color: gray;
+    background-color: wheat;
     height: 500px;
     display: flex;
     padding: 100px;
@@ -118,20 +124,7 @@ h1{
     text-align: center;
     margin: 150px;
 }
-.background3>.content3{
-    height: 300px;
-    flex: 1;
-    padding: 20px;
-    margin: 200px;
-}
-.background3{
-    background-color: skyblue;
-    height: 500px;
-    display: flex;
-    padding: 100px;
-    margin: 0px;
-    align-items: center;
-}
+
 #sponsor{
     color: black;
     text-align: center;
@@ -149,4 +142,63 @@ footer{
     text-align: center;
     justify-content: center;
 }
+.content3{
+    text-align: center;
+}
+nav{
+    align-items: center;
+    display: inline-flex;
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.3rem    
+}
+nav a{
+    color: gold;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+nav li{
+    margin-bottom: 1.8rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+}
+.nav>.navi{
+    padding: 20px;
+}
+.navbar-container input[type="checkbox"],
+.navbar-container .hamburger-lines{
+    display: block;
+}
+.navbar-container{
+    display: block;
+    position: relative;
+    height: 64px;
+}
+
+.navbar-container input[type="checkbox"]{
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 30px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.navbar-container .hamburger-lines{
+    display: block;
+    height: 28px;
+    width: 35px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
