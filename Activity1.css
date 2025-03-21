@@ -1,0 +1,152 @@
+body{
+        margin: 0px;
+}
+header{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    
+}
+.background{
+    background-color: gray;
+    height: 550px;
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    
+}
+.background>.content{
+    height: 300px;
+    flex: 1;
+    padding: 20px;
+    margin: 200px;
+
+}
+h1{
+    font-size: 50px;
+    color: black;
+}
+#lorem{
+    font-size: 20px;
+    color: aqua;
+}
+#whitespace{
+    height: 50px;
+    width: 150px;
+    background-color: green;
+}
+.background2>.content2{
+    height: 300px;
+    flex: 1;
+    padding: 20px;
+    margin: 200px;
+}
+.background2{
+    background-color: skyblue;
+    height: 500px;
+    display: flex;
+    padding: 100px;
+    margin: 0px;
+    align-items: center;
+}
+#project{
+    color: black;
+    font-size: 50px;
+}
+#lorem2{
+    color: black;
+    font-size: 20px;
+}
+#projectbotton{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+.background3>.content3{
+    height: 300px;
+    flex: 1;
+    padding: 20px;
+    margin: 200px;
+}
+.background3{
+    background-color: skyblue;
+    height: 500px;
+    display: flex;
+    padding: 100px;
+    margin: 0px;
+    align-items: center;
+} 
+.background4>.content4{
+    height: 300px;
+    flex: 1;
+    padding: 20px;
+    margin: 200px;
+}
+.background4{
+    background-color: gray;
+    height: 500px;
+    display: flex;
+    padding: 100px;
+    margin: 0px;
+    align-items: center;
+}
+#extension1{
+    height: 50px;
+    width: 100px;
+    background-color: green;
+}
+.background5{
+    background-color: gray;
+    height: 500px;
+
+    padding: 100px;
+    margin: 0px;
+    align-items: center;
+    display: block;
+    text-align: c;
+}
+.background5>.content5{
+    height: 300px;
+    text-align: center;
+    margin: 150px;
+}
+.background3>.content3{
+    height: 300px;
+    flex: 1;
+    padding: 20px;
+    margin: 200px;
+}
+.background3{
+    background-color: skyblue;
+    height: 500px;
+    display: flex;
+    padding: 100px;
+    margin: 0px;
+    align-items: center;
+}
+#sponsor{
+    color: black;
+    text-align: center;
+}
+#work{
+    color: gold;
+}
+#extension{
+    color: gold;
+}
+#extension2{
+    color: gold;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+}
+
